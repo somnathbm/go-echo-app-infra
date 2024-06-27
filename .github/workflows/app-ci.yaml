@@ -1,0 +1,16 @@
+name: Infra K8s manifest update check
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  check-manifest-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v4
+        
+      - name: Print latest commit SHA
+        run: echo "commit hash - ${{ github.sha }}"
