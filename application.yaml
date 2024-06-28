@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/somnathbm/go-echo-app.git
+    repoURL: https://github.com/somnathbm/go-echo-app-infra.git
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
