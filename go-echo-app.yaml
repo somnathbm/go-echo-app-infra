@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: my-go-echo-app
-        image: somnathbm/go-echo:v1.10
+        image: somnathbm/go-echo:v1.11
         ports:
         - name: go-echo-port
           containerPort: 1323
